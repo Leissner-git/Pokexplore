@@ -14,7 +14,6 @@
 
     <header>
         <h1>Pokexplorer</h1>
-        <p>Discover information about your favorite Pokémon!</p>
     </header>
 
     <main>
@@ -30,8 +29,7 @@
                 <input
                     type="text"
                     id="pokemon-input"
-                    placeholder="Try Pikachu..."
-                    required
+                    placeholder="Enter a Pokemon!"
                 >
 
                 <button type="submit">Search</button>
@@ -41,27 +39,15 @@
         <p id="message" role="status"></p>
 
         <section class="results">
-            <h2>Pokémon Details</h2>
+            <h2>Pokémon</h2>
 
             <div id="pokemon-card" hidden>
                 <h3 id="pokemon-name"></h3>
 
                 <img id="pokemon-image" src="" alt="">
-
-                <p>Pokédex ID: <span id="pokemon-id"></span></p>
-                <p>Type: <span id="pokemon-type"></span></p>
-                <p>Height: <span id="pokemon-height"></span></p>
-                <p>Weight: <span id="pokemon-weight"></span></p>
             </div>
         </section>
 
     </main>
-
-    <footer>
-        <p>Pokémon Explorer | Powered by
-            <a href="https://pokeapi.co/">PokéAPI</a>
-        </p>
-    </footer>
-
 </body>
 </html>

@@ -6,13 +6,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f4f8;
-    color: #333;
+    color: black;
     margin: 0;
     line-height: 1.6;
 }
 
 header {
-    background-color: #e63946;
+    background-color: red;
     color: white;
     text-align: center;
     padding: 35px 20px;
@@ -35,11 +35,11 @@ main {
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 10px gray;
 }
 
 h2 {
-    color: #e63946;
+    color: red;
 }
 
 form {
@@ -50,23 +50,19 @@ form {
 
 input {
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
     border-radius: 6px;
     font-size: 16px;
 }
 
 button {
-    background-color: #e63946;
+    background-color: red;
     color: white;
     padding: 12px;
     border: none;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #c1121f;
 }
 
 #pokemon-card {
@@ -86,18 +82,14 @@ button:hover {
 
 #message {
     text-align: center;
-    color: #555;
+    color: gray;
 }
 
 footer {
-    background-color: #222;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
-}
-
-footer a {
-    color: #ffd166;
 }
 
 [hidden] {
