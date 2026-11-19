@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokexplorer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pokexplorer</h1>
+        <p>Discover information about your favorite Pokémon!</p>
+    </header>
+
+    <main>
+
+        <section class="search-section">
+            <h2>Find a Pokémon</h2>
+
+            <form id="search-form">
+                <label for="pokemon-input">
+                    Enter a Pokémon name or number:
+                </label>
+
+                <input
+                    type="text"
+                    id="pokemon-input"
+                    placeholder="Try Pikachu..."
+                    required
+                >
+
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <p id="message" role="status"></p>
+
+        <section class="results">
+            <h2>Pokémon Details</h2>
+
+            <div id="pokemon-card" hidden>
+                <h3 id="pokemon-name"></h3>
+
+                <img id="pokemon-image" src="" alt="">
+
+                <p>Pokédex ID: <span id="pokemon-id"></span></p>
+                <p>Type: <span id="pokemon-type"></span></p>
+                <p>Height: <span id="pokemon-height"></span></p>
+                <p>Weight: <span id="pokemon-weight"></span></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Pokémon Explorer | Powered by
+            <a href="https://pokeapi.co/">PokéAPI</a>
+        </p>
+    </footer>
+
+</body>
+</html>
